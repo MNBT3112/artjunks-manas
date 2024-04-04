@@ -9,7 +9,9 @@ margin:0px;
 padding: 0px;
 
 
+
 }
+
 
 
 
@@ -31,6 +33,32 @@ box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
 
 }
 
+
+@media(min-width:976px){
+    
+    #page1{
+        background-image: url("37aa17d7080da3224dc200ed1db1e95f.jpg" );
+        background-size:cover;
+      
+    
+        background-position: center;
+    
+        height:1024px;
+        width:100%;
+    
+    max-width:1440px;
+    
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+    
+    
+    }
+    
+
+
+}
+
+
+
 #navbar{
     display:flex;
     text-align: center;
@@ -40,6 +68,8 @@ box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
     justify-content: space-between;
 
 }
+
+
 
 #title{
 font-size: 2rem;
@@ -79,6 +109,14 @@ margin-bottom: 2px;
 
 }
 
+
+
+@media(min-width:976px){
+    #hamburger_menu{
+        display: none;
+    }
+}
+
 #page1_intro{
     height: 429px;
 
@@ -87,6 +125,22 @@ margin-bottom: 2px;
     margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+@media(min-width:976px){
+    #page1_intro{
+        width: 100%;
+        max-width:748px;
+
+        height: 411px;
+        margin-top: 235px;
+        margin-left: 72px;
+        gap: 32px;
+        opacity: 0px;
+        
+    }
+    
 }
 #white_box{
     width:90px;
@@ -114,6 +168,32 @@ opacity: 0px;
 
 }
 
+@media(min-width:976px){
+    #page1_intro_info{
+        font-family: Libre Caslon Display;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 95px;
+
+
+        text-align: left;
+        color: #FFFFFF;
+        width: 748px;
+        text-align: left;
+
+height: auto;
+
+word-spacing: 4px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+margin-bottom: 0px;
+
+    
+}
+
+
+
+}
 
 #page1_intro_para{
 
@@ -128,6 +208,28 @@ font-weight: 500;
 line-height: 30.33px;
 text-align: left;
 color: #FFFFFF;
+
+}
+
+@media(min-width:976px){
+    #page1_intro_para{
+        font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 30.33px;
+text-align: left;
+max-width: 528px;
+width:100%;
+/* word-spacing: 2px; */
+height: 60px;
+gap: 0px;
+opacity: 0px;
+margin-top:18px;
+
+
+    }
+
+
 
 }
 
@@ -176,6 +278,29 @@ margin-left: 32px;
 margin-bottom: 78px;
 }
 
+@media(min-width:976px){
+  
+    #page2_heading{
+        width: 269px;
+height: 48px;
+
+
+margin-left: 72px;
+gap: 0px;
+opacity: 0px;
+
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.41px;
+text-align: left;
+color:#000000;
+margin-bottom:39px;
+
+
+    }
+}
+
 
 
 
@@ -184,10 +309,36 @@ margin-bottom: 78px;
     flex-direction: column;
     gap:32px;
     margin:0px 32px;
-    
+
 
 
 }
+
+@media(min-width:976px){
+    #card_container{
+        display:flex;
+        flex-direction: row;
+        gap:16px;
+        margin:0px 72px;
+        justify-content: space-evenly;
+        margin-bottom:78px;
+      
+
+    
+    
+    
+    }
+    
+
+    
+    
+    
+    
+    
+    
+    
+}
+
 
 .cards{
     width: 311px;
@@ -202,6 +353,20 @@ border-radius: 4px;
 
 
 }
+@media(min-width:976px){
+    .cards{
+        width: 419px;
+        height: 635px;
+     
+    gap: 0px;
+    opacity: 0px;
+    
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    
+    
+    }
+}
 
 .card_img{
     width: 311px;
@@ -215,6 +380,23 @@ border-radius: 4px;
 opacity: 0px;
 
 
+}
+@media(min-width:976px){
+    .card_img{
+        width: 419px;
+        height: 352px;
+      
+        
+    gap: 0px;
+    border-radius: 4px;
+    
+    
+    
+    
+    opacity: 0px;
+    
+    
+    }
 }
 
 #card_date{
@@ -254,4 +436,46 @@ height: 120px;
 gap: 0px;
 opacity: 0px;
 
+}
+
+@media(min-width:976px){
+    #card_date{
+        width: 110px;
+        height: 18px;
+     
+        gap: 0px;
+        opacity: 0px;
+        margin-left: 32px;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18.15px;
+        text-align: left;
+        color: #B7B7B7;
+        
+    }
+    
+    #card_para{
+        width: 355px;
+        height: 120px;
+        
+        gap: 0px;
+        opacity: 0px;
+        
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-top:35px;
+
+
+        font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 30.26px;
+text-align: left;
+color:#000000;
+word-spacing:0px;
+
+
+    }
+    
 }
